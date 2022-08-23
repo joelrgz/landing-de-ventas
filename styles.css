@@ -67,17 +67,6 @@ header a{
     text-decoration: none;
     font-weight: bold;
     color: white
-
-}
-
-header p{
-    padding: 5px 12px;
-    font-size: 18px;
-    color: white;
-}
-
-input{
-    margin-left: 5px;
 }
 
 header a:hover{
@@ -171,7 +160,6 @@ background-position: center center;
 ,url(imagenes/mezcladora.jpg);
 background-size: cover;
 background-position: center center;
-
 }
 
 footer{
@@ -188,7 +176,7 @@ footer p{
 footer .container{
 height: 150px;
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: flex-end;
 }
 
